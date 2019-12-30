@@ -44,7 +44,7 @@ function DisplayQs(){ // this bit displays the questions and registers when an a
 //this displays the score after the test - Could definitely be improved with a popup or something
 
 function showresults(){
-    document.querySelector(".question").innerHTML = "You Scored " + score + " Out Of "+ Questions.length/6+ "!"; 
+    document.querySelector(".question").innerHTML = "That's it! You scored " + score + " out of "+ Questions.length/6+ "."; 
     document.getElementById('a').innerHTML = "";
     document.getElementById('b').innerHTML = "";
     document.getElementById('c').innerHTML ="";
